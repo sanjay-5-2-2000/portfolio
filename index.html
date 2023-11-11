@@ -30,7 +30,7 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae debitis ipsam corporis qui ipsa deserunt, error animi quasi nam, dolorum fuga. Explicabo dolorum facere adipisci consequuntur est iure voluptates culpa ratione et inventore illo dolor, voluptatem neque repudiandae a ducimus consectetur optio, asperiores laboriosam, possimus sint molestiae vitae sed! Eum, at pariatur alias quam ipsum id ab officia odit doloribus omnis amet placeat ducimus in, modi, rerum unde repellat est numquam. Sunt eveniet sapiente temporibus assumenda vel, magnam asperiores corporis porro repudiandae tenetur omnis sed atque laudantium sit neque iste laboriosam fugiat reprehenderit sint. Accusamus libero soluta cupiditate quas odit debitis explicabo, dolore consequatur, ut aut, ipsa vitae voluptatibus. Voluptatum ipsam et non iusto voluptatem dolore alias exercitationem totam, inventore nulla aut iste nisi rerum accusantium impedit vero porro. Placeat, nostrum nemo quod modi architecto quaerat. Rerum nemo unde quam perspiciatis sint! Saepe sit, velit laudantium necessitatibus esse ad consectetur.</p>
      <br>
      <br>
-    <table>
+    <table border="5">
         <thead>
             <th>School</th>
             <th>Degree</th>
@@ -107,11 +107,44 @@
             </ul>
     </div>
 </div>
-<div class="about" id="contact">
+<div class="contact" id="contact">
     <h1>Contact me</h3>
     <h3>Sanjay HB</h3>
     <h3>Davangere</h3>
     <h3>7899084301</h3>
+    
+    <form action="mailto:sanjaysanju522000@gmail.com">
+        <br>
+        <br>
+
+<table border="4">
+    <tr>
+        
+        <td><label for="username"> Name</label></td>
+        <td><input type="text" name="subject" placeholder="Lorem ipsam"></td>
+        
+    </tr>
+    <tr>
+        <td><label for="phno">Phno</label></td>
+        <td><input type="number" name="phno" placeholder="123456"></td>
+    </tr>
+    <tr>
+        <td><label for="messege">messege</label></td>
+        <td> <textarea name=" body"></textarea></td>
+        
+    </tr>
+    <tr>
+        <td><td><button type="submit">Send</button></td></td>
+    </tr>
+
+</table>
+</form>
+        
+        
+        
+       
+        
+    
 
 </div>
 
@@ -175,5 +208,27 @@ body{
         color: black;
         font-size: 15px;
         padding: 10px 20px;
+    }
+    .about{
+        padding: 200px 100px;
+    }
+    .contact{
+        text-align: center;
+        height: 100vh;
+    }
+    .contact table{
+        margin: auto;
+        text-align: left;
+    }
+    .contact button{
+        background-color: aqua;
+        border: none;
+    }
+    .contact button:hover{
+        background-color: red;
+        padding: 5px;
+    }
+    @media  { max-width: 400px 700px;
+        
     }
 </style>
